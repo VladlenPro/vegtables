@@ -1,0 +1,14 @@
+/** @format */
+
+.vegContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+  background-color: rgb(158, 158, 231);
+  border: 5px solid black;
+}
+.items {
+  border: 5px dotted green;
+}
